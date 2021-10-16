@@ -5,17 +5,13 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-
-
 .header {
+  display: flex;
+  position: relative;
+  background-color: #f2f2f2;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-}
-
-.header__square-pic {
-  height: 568px;
-  width: 568px;
 }
 
 .table__cell_theme_dark {
@@ -23,12 +19,6 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
-}
-
-.header{
-  display: flex;
-  position: relative;
-  background-color: #f2f2f2;
 }
 
 .header__link{
@@ -81,7 +71,7 @@
 .header__square-pic{
   width: 568px;
   height: 568px;
-  background-color: #2f80ed;  
+  background-color: #2f80ed;
   position: absolute;
   z-index: 0;
   right:0;
@@ -102,7 +92,7 @@
 
 .two-columns__brief{
   width: 175px;
-  margin-left: 0;
+  margin: 0;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
