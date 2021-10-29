@@ -20,6 +20,9 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  width: 200px;
+  margin-top: 80px;
+  margin-bottom:0;
 }
 
 .header__link{
@@ -241,12 +244,6 @@
 .section-title_theme_dark{
   margin: 90px auto 20px;
   z-index: 2;
-}
-
-.table__cell_theme_dark{
-  width: 200px;
-  margin-top: 80px;
-  margin-bottom:0;
 }
 
 .kaufman__triangle{
