@@ -15,14 +15,6 @@
   z-index: 0;
 }
 
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-  margin-bottom:0;
-}
-
 .header__link{
   text-decoration: none;
   color: #2f80ed;
@@ -34,7 +26,7 @@
   height: 32px;
 }
 
-.logo_place_header{
+.header__logo_place_header{
   position: absolute;
   top: 30px;
   left: 64px;
@@ -45,7 +37,6 @@
   line-height: 96px;
   font-weight: bold;
   max-width: 730px;
-  max-height: 192px;
   margin: 0 0 0 64px;
   align-self: center;
   z-index: 1;
@@ -122,7 +113,7 @@
   margin-top: 30px;
 }
 
-.span-accent{
+.two-columns__span-accent{
   font-weight: bolder;
 }
 
@@ -171,15 +162,14 @@
   font-size: 24px;
   font-weight: bolder;
   line-height: 1.15;
-  margin-top:0;
-  margin-bottom: 20px;
+  margin: 0;
 }
 
 .table__text{
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
-  margin:0;
+  margin:20px 0 0;
 }
 
 .cell-cite{
@@ -242,6 +232,14 @@
 .section-title_theme_dark{
   margin: 90px auto 20px;
   z-index: 2;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+  margin-bottom:0;
 }
 
 .kaufman__triangle{
