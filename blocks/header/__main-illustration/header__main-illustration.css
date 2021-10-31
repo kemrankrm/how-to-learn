@@ -1,0 +1,9 @@
+.header__main-illustration{
+    object-fit: contain;
+    max-width: 765px;
+    max-height: 608px;
+    position: absolute;
+    bottom:0;
+    right: 0;
+    z-index: -1;
+  }
